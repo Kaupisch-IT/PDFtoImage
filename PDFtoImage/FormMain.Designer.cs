@@ -280,9 +280,11 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(537, 337);
 			this.Controls.Add(this.tableLayoutPanel1);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "FormMain";
 			this.Padding = new System.Windows.Forms.Padding(10);
-			this.Text = "PDF zu Bild";
+			this.Text = "PDFtoImage - Kaupisch IT-Systeme GmbH";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
