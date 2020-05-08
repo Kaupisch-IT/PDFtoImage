@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PDFtoImage.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Page" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="OutputPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Resolution" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">96</Value>
+    </Setting>
+		<Setting Name="Device" Type="GhostscriptSharp.Settings.GhostscriptDevices" Scope="User">
+			<Value Profile="(Default)">jpeg</Value>
+		</Setting>
+		<Setting Name="PageSize" Type="GhostscriptSharp.Settings.GhostscriptPageSizes" Scope="User">
+			<Value Profile="(Default)">a4</Value>
+		</Setting>
+  </Settings>
+</SettingsFile>
